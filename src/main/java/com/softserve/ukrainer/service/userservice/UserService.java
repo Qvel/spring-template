@@ -6,4 +6,5 @@ public interface UserService {
 
     void save(UserDTO userDTO);
 
+    void restorePassword(UserDTO userDTO);
 }
